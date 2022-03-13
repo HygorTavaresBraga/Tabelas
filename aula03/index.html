@@ -1,0 +1,311 @@
+<!-- TABELAS -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03 - Tabelas</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<div class="container">
+
+    <div class="container-block">
+
+      <div class="titulo-tabela">
+        <h5>TABELA SEM CÉLULAS DE TÍTULO</h5>
+      </div>
+
+      <div class="tabela">
+        <table border="1">
+          <tr>
+            <td>Nome</td>
+            <td>Idade</td> 
+            <td>Profissão</td>
+          </tr>
+        
+          <tr>
+            <td>Ted</td>
+            <td>22</td>
+            <td>Estudante</td> 
+          </tr>
+        
+          <tr>
+            <td>Ralf</td>
+            <td>26</td>
+            <td>Designer</td>
+          </tr>
+        </table> 
+      </div>
+    </div>
+
+
+    <div class="container-block">
+
+      <div class="titulo-tabela">
+        <h5>TABELA COM CÉLULAS DE TÍTULO HORIZONTAL</h5>
+      </div>
+
+      <div class="tabela">
+        <table border="1">
+          <tr>
+            <th>Nome</th>
+            <th>Idade</th> 
+          </tr>
+        
+          <tr>
+            <td>Vitor</td>
+            <td>15</td>
+          </tr>
+        
+          <tr>
+            <td>Ana</td>
+            <td>44</td>
+          </tr>
+        </table> 
+      </div>
+    </div>
+
+    <div class="container-block">
+
+      <div class="titulo-tabela">
+        <h5>TABELA COM CÉLULAS DE TÍTULO VERTICAL</h5>
+      </div>
+
+      <div class="tabela">
+        <table border="1">
+          <tr>
+            <th>Nome</th>
+            <td>Junior</td> 
+          </tr>
+        
+          <tr>
+            <th>Idade</th>
+            <td>15</td>
+          </tr>
+        
+          <tr>
+            <th>Estado</th>
+            <td>RJ</td>
+          </tr>
+        </table>         
+      </div>
+    </div>
+
+    <div class="container-block">
+
+      <div class="titulo-tabela">
+        <h5>TABELA COM TAGS ESTRUTURAIS</h5>
+      </div>
+
+      <div class="tabela">
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Titulo 1</th>
+              <th>Titulo 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Corpo1 Linha1</td> 
+              <td>Corpo2 Linha1</td> 
+            </tr> 
+            <tr>
+              <td>Corpo1 Linha2</td>
+              <td>Corpo2 Linha2</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <td>Rodape 1</td>
+            <td>Rodape 2</td>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+
+    <div class="container-block">
+
+      <div class="titulo-tabela">
+        <h5>TABELA COM CÉLULA VAZIA</h5>
+      </div>
+
+      <div class="tabela">
+        <table border="1">
+          <tr>
+            <th>&nbsp</th>
+            <th>Valor</th> 
+          </tr>
+        
+          <tr>
+            <td>Item 1</td>
+            <td>R$10,00</td>
+          </tr>
+        
+          <tr>
+            <td>Item 2</td>
+            <td>R$20,00</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="container-block">
+
+      <div class="titulo-tabela">
+        <h5>TABELA COM COLSPAN</h5>
+      </div>
+
+      <div class="tabela">
+        <table border="1">
+          <tr>
+            <th>Nome</th>
+            <th colspan="2">Telefones</th> 
+          </tr>
+        
+          <tr>
+            <td>Marcio</td>
+            <td>8888-8888</td>
+            <td>9999-9999</td>
+          </tr>
+        
+          <tr>
+            <td>Luisa</td>
+            <td>1111-1111</td>
+            <td>2222-2222</td>
+          </tr>
+        </table> 
+      </div>
+    </div>
+
+    <div class="container-block">
+
+      <div class="titulo-tabela">
+        <h5>TABELA COM ROWSPAN</h5>
+      </div>
+
+      <div class="tabela">
+        <table border="1">
+          <tr>
+            <th>Primeiro Nome</th>
+            <td>Guilherme</td> 
+          </tr>
+        
+          <tr>
+            <th rowspan="2">Telefone</th>
+            <td>8888-8888</td>
+          </tr>
+        
+          <tr>
+            <td>9999-9999</td>
+          </tr>
+        </table> 
+      </div>
+    </div>
+
+    <div class="container-block">
+
+      <div class="titulo-tabela">
+        <h5>TABELA COM TÍTULO</h5>
+      </div>
+
+      <div class="tabela">
+        <table border="1">
+          <caption>Titulo</caption> 
+        
+          <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th> 
+          </tr>
+        
+          <tr>
+            <td>Aquiles</td>
+            <td>Junior</td>
+          </tr>
+        
+          <tr>
+            <td>Eduardo</td>
+            <td>Vicentino</td>
+          </tr>
+        </table> 
+      </div>
+    </div>
+
+    <div class="container-block">
+
+      <div class="titulo-tabela">
+        <h5>TABELA COM COLGROUP E COL</h5>
+      </div>
+
+      <div class="tabela">
+        <table border="1"> 
+
+          <colgroup>
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class="azul">
+          </colgroup>
+
+          <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Profissao</th>
+          </tr>
+
+          <tr>
+            <td>Vinicius</td>
+            <td>17</td>
+            <td>Estudante</td>
+          </tr>
+
+          <tr>
+            <td>Lucas</td>
+            <td>26</td>
+            <td>Escritor</td>
+          </tr>
+        </table> 
+      </div>
+    </div>
+
+
+    <div class="container-block">
+
+      <div class="titulo-tabela">
+        <h5>TABELA COM GRUPO DE SPAN</h5>
+      </div>
+
+      <div class="tabela">
+        <table border="1"> 
+
+          <colgroup>
+            <col span="2" style="background-color: red">
+            <col style="background-color: yellow">
+          </colgroup>
+
+          <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Profissao</th>
+          </tr>
+
+          <tr>
+            <td>Vinicius</td>
+            <td>17</td>
+            <td>Estudante</td>
+          </tr>
+
+          <tr>
+            <td>Lucas</td>
+            <td>26</td>
+            <td>Escritor</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
